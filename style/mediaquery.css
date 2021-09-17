@@ -1,0 +1,20 @@
+/* @media not|only mediatype and (mediafeature and|or|not mediafeature) {
+  CSS-Code;
+} */
+
+@media all and (max-width: 950px) {
+  .about_container {
+    flex-direction: column;
+  }
+  .about_container_item {
+    padding: 5px;
+  }
+  #intro_item1,
+  #intro_item2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  span {
+    display: block;
+  }
+}

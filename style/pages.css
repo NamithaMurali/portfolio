@@ -1,0 +1,35 @@
+body {
+  margin: 30px;
+  font-family: "Poppins", sans-serif;
+  background-color: #7772a1;
+  color: white;
+  background-image: linear-gradient(#7772a1, #0e093d);
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#credential:hover {
+  text-decoration: underline;
+}
+button {
+  background-color: #0e093d;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #7772a1;
+  border: 2px solid #0e093d;
+}
+li {
+  font-weight: bold;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
